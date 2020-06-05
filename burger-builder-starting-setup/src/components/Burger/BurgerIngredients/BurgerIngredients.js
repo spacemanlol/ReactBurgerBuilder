@@ -36,6 +36,9 @@ class BurgerIngredient extends Component {
                 break;
 
         }
+
+        return ingredient;
+
     }
 
 };
