@@ -15,7 +15,7 @@ const burger = (props) => {
             return arr.concat(el);
         }, []);
 
-    // Ask user to start adding ingredients if none have been added so far 
+    // Ask user to start adding ingredients if none have been added so far
     if(transformedIngredients.length === 0){
         transformedIngredients = <p>Please start adding ingredients!</p>;
     }
